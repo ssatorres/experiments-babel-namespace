@@ -1,0 +1,7 @@
+# NPM
+node_modules
+package-lock.json
+
+# OS Files
+thumbs.dll
+.DS_Store

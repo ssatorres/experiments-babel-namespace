@@ -1,0 +1,23 @@
+{
+  "name": "experiments-babel-namespace",
+  "version": "1.0.0",
+  "license": "ISC",
+  "main": "src/app.js",
+  "scripts": {
+    "production": "node_modules/@babel/node/bin/babel-node.js src/app.js",
+    "development": "node_modules/babel-watch/babel-watch.js src/app.js"
+  },
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-transform-modules-commonjs": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/cli": "^7.4.4",
+    "@babel/node": "^7.4.4",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "babel-watch": "^7.0.0"
+  }
+}
