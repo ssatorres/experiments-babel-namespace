@@ -1,14 +1,12 @@
 {
-	"plugins": [
-		"@babel/plugin-transform-modules-commonjs",
-		[
-			"module-resolver", {
-	      "root": ["./src"],
-	      "alias": {
-	        "@": "./src/",
-	        "Comercial": "./src/controller/Comercial"
-	      }
-    	}
-    ]
-	]
+  "plugins": [
+    "@babel/plugin-transform-modules-commonjs",
+    ["module-resolver", {
+      "root": ["./src"],
+      "alias": {
+        "@": "./src/",
+        "Comercial": "./src/controller/Comercial"
+      }
+    }]
+  ]
 }
